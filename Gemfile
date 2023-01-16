@@ -70,3 +70,10 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+# phony 
+gem 'phony_rails', '~> 0.15.0'
+# httparty 
+gem 'httparty', '~> 0.21.0'
+# .env 
+gem 'dotenv', '~> 2.8', '>= 2.8.1'
