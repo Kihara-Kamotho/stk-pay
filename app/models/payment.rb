@@ -17,4 +17,5 @@ class Payment < ApplicationRecord
       self.response = ex.message
       self.save
     end
+  end
 end
